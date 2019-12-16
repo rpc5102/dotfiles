@@ -10,7 +10,8 @@ echo "Installing Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Installing pip"
-curl -fsSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py
+curl -fsSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py --user
+pip3 install Pygments
 
 brew tap homebrew/science
 
