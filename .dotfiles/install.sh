@@ -32,8 +32,10 @@ brew cask install \
   mamp \
   microsoft-teams \
   mysqlworkbench \
+  rocket \
   rstudio \
   sublime-text \
+  vanilla \
   vlc \
   visual-studio-code \
   xquartz
