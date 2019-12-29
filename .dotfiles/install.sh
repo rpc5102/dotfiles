@@ -28,6 +28,7 @@ brew cask install \
   google-chrome \
   handbrake \
   imageoptim \
+  insomnia \
   kitematic \
   mamp \
   microsoft-teams \
