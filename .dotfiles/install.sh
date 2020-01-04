@@ -30,6 +30,7 @@ brew cask install \
   imageoptim \
   insomnia \
   kitematic \
+  lingon-x \
   mamp \
   microsoft-teams \
   mysqlworkbench \
