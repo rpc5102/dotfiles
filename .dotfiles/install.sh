@@ -46,7 +46,7 @@ brew cask install \
   xquartz
 
 brew install \
-  git gitmoji \
+  git gitmoji git-lfs \
   httrack \
   nvm node \
   mas \
