@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Creating Workspaces"
-mkdir -p -v ~/Workspaces/{Components,Docker,Drupal/Modules,Interactives,Misc,Python,R}
+mkdir -p -v ~/Workspaces/{Components,Docker,Drupal/{Modules,Themes},Misc/Interactives,Python,R,Sites}
 
 echo "Enabling xcode-select"
 xcode-select --install
