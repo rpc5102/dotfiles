@@ -29,11 +29,14 @@ brew cask install \
   handbrake \
   imageoptim \
   insomnia \
+  kap \
   kitematic \
   lingon-x \
   mamp \
   microsoft-teams \
   mysqlworkbench \
+  notion \
+  qlmarkdown \
   rocket \
   rstudio \
   sublime-text \
