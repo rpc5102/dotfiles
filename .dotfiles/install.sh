@@ -70,6 +70,9 @@ mas install 409203825 # Numbers
 mas install 409201541 # Pages
 mas install 803453959 # Slack
 mas install 570549457 # Spotica Menu
+mas install 497799835 # Xcode
+
+sudo xcodebuild -license accept
 
 echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
