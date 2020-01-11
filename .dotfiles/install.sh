@@ -55,6 +55,9 @@ brew install \
   r \
   sqlite \
   zsh zsh-completions
+  
+# Activate nvm
+source $(brew --prefix nvm)/nvm.sh
 
 # zsh-plugins
 sh <(curl -sL https://raw.githubusercontent.com/vladmyr/dotfiles-plugin/master/install.sh)
