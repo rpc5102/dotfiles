@@ -57,7 +57,7 @@ brew install \
   zsh zsh-completions
   
 # Activate nvm
-source $(brew --prefix nvm)/nvm.sh
+source $(brew --prefix nvm)/nvm.sh && echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc
 
 # zsh-plugins
 sh <(curl -sL https://raw.githubusercontent.com/vladmyr/dotfiles-plugin/master/install.sh)
