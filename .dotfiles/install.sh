@@ -14,6 +14,7 @@ curl -fsSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.
 pip3 install Pygments
 
 brew tap homebrew/science
+brew tap homebrew/cask-fonts
 
 brew cask install \
   alfred \
@@ -24,6 +25,7 @@ brew cask install \
   dropbox \
   firefox \
   firefox-developer-edition \
+  font-roboto-mono \
   github \
   google-chrome \
   handbrake \
