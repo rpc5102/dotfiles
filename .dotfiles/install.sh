@@ -32,7 +32,6 @@ brew cask install \
   imageoptim \
   insomnia \
   kap \
-  kitematic \
   lingon-x \
   mamp \
   microsoft-teams \
@@ -74,7 +73,6 @@ mas install 1295203466 # Microsoft Remote Desktop 10
 mas install 409203825 # Numbers
 mas install 409201541 # Pages
 mas install 803453959 # Slack
-mas install 570549457 # Spotica Menu
 mas install 497799835 # Xcode
 
 sudo xcodebuild -license accept
