@@ -34,7 +34,7 @@ brew install \
   svn \
   yarn \
   youtube-dl \
-  zsh zsh-completions
+  zsh zsh-autosuggestions zsh-completions
 
 brew cask install \
   alfred \
@@ -120,14 +120,12 @@ echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # todo: pull dotfiles
-# todo: install fonts
 
 # VSCode extensions are now handled by settings sync.
 
 echo "Additional applications..."
 open \
-  https://office365.psu.edu/ \
   https://adobe.psu.edu \
   https://psu.zoom.us/ \
-  https://softwarerequest.psu.edu/
+  https://softwarerequest.psu.edu/ # VPN
 
