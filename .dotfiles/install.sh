@@ -13,6 +13,18 @@ echo "Installing pip"
 curl -fsSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py --user
 pip3 install Pygments
 
+brew install \
+  gh git gitmoji git-lfs \
+  httrack \
+  nvm node \
+  mas \
+  pcre \
+  python \
+  r \
+  sqlite \
+  svn \
+  zsh zsh-completions
+
 brew tap homebrew/cask-fonts
 
 brew cask install \
@@ -43,17 +55,6 @@ brew cask install \
   vlc \
   visual-studio-code \
   xquartz
-
-brew install \
-  git gitmoji git-lfs \
-  httrack \
-  nvm node \
-  mas \
-  pcre \
-  python \
-  r \
-  sqlite \
-  zsh zsh-completions
   
 # Activate nvm
 source $(brew --prefix nvm)/nvm.sh && echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc
