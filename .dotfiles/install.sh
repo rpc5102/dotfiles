@@ -25,8 +25,6 @@ brew install \
   svn \
   zsh zsh-completions
 
-brew tap homebrew/cask-fonts
-
 brew cask install \
   alfred \
   bitwarden \
@@ -35,7 +33,6 @@ brew cask install \
   docker \
   dropbox \
   firefox \
-  font-roboto-mono \
   github \
   google-chrome \
   handbrake \
@@ -55,6 +52,22 @@ brew cask install \
   vlc \
   visual-studio-code \
   xquartz
+  
+# Install Fonts
+brew tap homebrew/cask-fonts
+
+brew cask install \
+  font-fira-code \
+  font-fira-mono \
+  font-fira-sans \
+  font-ibm-plex \
+  font-lato \
+  font-open-sans \
+  font-nunito \
+  font-roboto \
+  font-roboto-mono \
+  font-roboto-slab \
+  font-source-sans-pro
   
 # Activate nvm
 source $(brew --prefix nvm)/nvm.sh && echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc
