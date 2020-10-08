@@ -34,7 +34,7 @@ brew install \
   svn \
   yarn \
   youtube-dl \
-  zsh zsh-autosuggestions zsh-completions
+  zsh zsh-completions
 
 brew cask install \
   alfred \
@@ -128,4 +128,3 @@ open \
   https://adobe.psu.edu \
   https://psu.zoom.us/ \
   https://softwarerequest.psu.edu/ # VPN
-
