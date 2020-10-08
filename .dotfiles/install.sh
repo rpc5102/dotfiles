@@ -14,15 +14,26 @@ curl -fsSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.
 pip3 install Pygments
 
 brew install \
+  composer \
+  flac \
+  ffmpeg \
   gh git gitmoji git-lfs \
+  go \
   httrack \
+  hugo \
+  lame \
   nvm node \
   mas \
+  openjdk
+  pandoc \
   pcre \
   python \
   r \
+  rclone \
   sqlite \
   svn \
+  yarn \
+  youtube-dl \
   zsh zsh-completions
 
 brew cask install \
@@ -44,13 +55,17 @@ brew cask install \
   microsoft-teams \
   mysqlworkbench \
   notion \
+  qlcolorcode \
   qlmarkdown \
+  qlstephen \
+  quicklook-json \
   rocket \
   rstudio \
   sublime-text \
   vanilla \
   vlc \
   visual-studio-code \
+  wine-stable \
   xquartz
   
 # Install Fonts
@@ -107,21 +122,12 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # todo: pull dotfiles
 # todo: install fonts
 
-echo "Installing vscode extensions"
-
-vscodeExtensions=("jasonlhy.vscode-browser-sync" "meirbon.flatland-monokai-improved" "Shan.code-settings-sync" "naumovs.color-highlight" "file-icons.file-icons" "Zignd.html-css-class-completion" "hdg.live-html-previewer" "christian-kohler.npm-intellisense" "neilbrayfield.php-docblocker" "ikappas.phpcs" "ms-python.python" "Ikuyadeu.r" "prettier-vscode" "HookyQR.beautify" "ms-vscode-remote.remote-containers" "ms-vscode-remote.remote-ssh" "ms-vscode-remote.remote-ssh-edit" "ms-vscode-remote.remote-ssh-explorer" "ms-vscode-remote.remote-wsl" "ms-vscode.sublime-keybindings" "ecmel.vscode-html-css" "bmewburn.vscode-intelephense-client" "wayou.vscode-todo-highlight" "formulahendry.auto-close-tag" "formulahendry.auto-rename-tag")
-
-for extension in $vscodeExtensions
-do
-  code --install-extension $extension
-done
-
-# todo: enable extensions
+# VSCode extensions are now handled by settings sync.
 
 echo "Additional applications..."
 open \
   https://office365.psu.edu/ \
   https://adobe.psu.edu \
   https://psu.zoom.us/ \
-  https://downloads.its.psu.edu/
+  https://softwarerequest.psu.edu/
 
