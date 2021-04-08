@@ -1,11 +1,14 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
 # Open in Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# Python 3
+export PATH="$PATH:/Users/bob/Library/Python/3.8/bin"
 
 # Open in RStudio
 rstudio () {
@@ -21,7 +24,7 @@ rstudio () {
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="spaceship"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -117,3 +120,6 @@ alias tree='tree -LC 2'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ~='cd ~'
+
+# https://denysdovhan.com/spaceship-prompt/
+eval "$(starship init zsh)"
