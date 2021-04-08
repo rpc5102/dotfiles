@@ -54,10 +54,6 @@ brew cask install \
   mamp \
   microsoft-teams \
   mysqlworkbench \
-  notion \
-  qlcolorcode \
-  qlmarkdown \
-  qlstephen \
   quicklook-json \
   rocket \
   rstudio \
@@ -87,10 +83,6 @@ brew cask install \
 # Activate nvm
 source $(brew --prefix nvm)/nvm.sh && echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc
 
-# zsh-plugins
-sh <(curl -sL https://raw.githubusercontent.com/vladmyr/dotfiles-plugin/master/install.sh)
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
 # Install Mac App Store applications
 mas install 937984704 # Amphetamine
 mas install 640199958 # Apple Developer
@@ -116,15 +108,15 @@ mas install 497799835 # Xcode
 
 sudo xcodebuild -license accept
 
+# zsh-plugins
+sh <(curl -sL https://raw.githubusercontent.com/vladmyr/dotfiles-plugin/master/install.sh)
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
 echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # todo: pull dotfiles
 
 # VSCode extensions are now handled by settings sync.
-
-echo "Additional applications..."
-open \
-  https://adobe.psu.edu \
-  https://psu.zoom.us/ \
-  https://softwarerequest.psu.edu/ # VPN
