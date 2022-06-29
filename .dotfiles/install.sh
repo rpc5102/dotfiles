@@ -36,7 +36,7 @@ brew install \
   youtube-dl \
   zsh zsh-completions
 
-brew cask install \
+brew install --cask \
   alfred \
   bitwarden \
   cryptomator \
@@ -49,6 +49,7 @@ brew cask install \
   handbrake \
   imageoptim \
   insomnia \
+  jupyter-notebook-viewer \
   kap \
   lingon-x \
   mamp \
@@ -101,6 +102,7 @@ mas install 462054704 # Microsoft Word
 mas install 409203825 # Numbers
 mas install 823766827 # OneDrive
 mas install 409201541 # Pages
+mas install 1596283165 # rcmd
 mas install 803453959 # Slack
 mas install 1482454543 # Twitter
 mas install 425424353 # The Unarchiver
